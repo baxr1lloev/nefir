@@ -4,7 +4,7 @@ import PacmanLoader from "react-spinners/PacmanLoader";
 
 const PacMan = () => {
     return (
-        <div className='flex  items-center justify-center mt-[13%] mr-[240px] '>
+        <div className='flex  items-center justify-center mt-[15%] mr-[240px] '>
             <PacmanLoader
                 color="purple"
                 size={150}
