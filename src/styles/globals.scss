@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+  
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -26,7 +27,7 @@
   }
 }
 
-body main #mainThirdSection {
+body main .mainThirdSection {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -41,7 +42,7 @@ body main #mainThirdSection {
     margin-bottom: 50px;
   }
 
-  #mainThirdSectionSlider {
+  .mainThirdSectionSlider {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -203,4 +204,13 @@ body main #mainThirdSection {
       }
     }
   }
+}
+
+
+.shad{
+  box-shadow: 5px 5px 21px rgba(0, 0, 0, 0.25);;
+}
+
+.btn-shad{
+  box-shadow: 3px 3px 14px rgba(166, 88, 179, 0.36);
 }
